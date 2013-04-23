@@ -1,0 +1,148 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Start of Resume Code */
+
+body {
+	margin-left: 21px;
+	height: 775px;
+}
+
+h1, h1#name {
+	font-family: helvetica, arial;
+	font-size: 16px;
+	width: 200px;
+	float: left;
+	background-color: none;
+	margin-right: 18px;
+	text-align: right;
+	font-weight: bold;
+}
+
+h1#name {
+	margin-top: 75px;
+
+}
+
+#date1, #date2, #date3, #date4, #date5, #date6, #skills1, #skills2 {
+	font-family: helvetica, arial;
+	font-size: 13px;
+	font-weight: normal;
+	color: #7a7a7a;
+	text-align: right;
+	float: left;
+	width: 200px;
+	margin-right: 18px;
+}
+
+p, #contact {
+	font-family: helvetica, arial;
+	font-size: 13px;
+	width: 460px;
+	background-color: none;
+	float: left;
+	line-height: 16px;
+}
+
+#description1 {
+	margin-top: 8px;
+}
+
+#contact {
+	margin-top: 76px;
+	margin-bottom: 72px;
+}
+
+li {
+	margin-left: 0px;
+	list-style: none;
+	line-height: 16px;
+
+}
+
+span {
+	font-family: georgia, times;
+	font-size: 13px;
+	font-style: italic;
+}
+
+#experience {
+	margin-bottom: 18px;
+}
+
+#date1 {
+	margin-top: 7px;
+	margin-bottom: 36px;
+}
+
+#thirdset, #fourthset, #fifthset {
+	margin-top: 18px;
+}
+
+
+.education {
+	margin-top: 36px;
+}
+
+#sixthset {
+	margin-top: 7px;
+	margin-bottom: 18px;
+}
+
+#seventhset {
+	margin-bottom: 18px;
+}
+
+
+}
+
+#education2 span {
+	margin-right: 12px;
+	font-family: helvetica, arial;
+	font-style: normal;
+}
+
+.clear {
+	clear: both;
+}
