@@ -136,11 +136,11 @@ span#dots {
 
 #head {
 	width: 669px;
-	height: 23px;
+	height: 22px;
 	background-color: none;
 	border-top: 1px solid #000000;
 	border-bottom: 1px solid #000000;
-	padding-top: 7px;
+	padding-top: 8px;
 	padding-left: 0px;
 	float: left;
 	font-family: georgia;
@@ -263,7 +263,7 @@ b {
 
 li.side {
 	width: 207;
-	margin-bottom: 3px;
+	margin-bottom: 2px;
 }
 
 .sidebarlinks {
@@ -302,4 +302,51 @@ a.sidebarlinks:hover {
 	float: left;
 	background: none;
 	margin-right: 16px;
+}
+
+/* Footer */
+
+footer {
+	height: 2px;
+	width: auto;
+	background-color: #000000;
+	margin-top: 150px;
+	margin-bottom: -100px;
+}
+
+.footnavlinks {
+	font-family: helvetica, arial;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+a.footnavlinks:link {
+	color: #000000;
+	
+}
+a.footnavlinks:visited {
+	color: #000000;
+
+}
+a.footnavlinks:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+
+.copyrighttext {
+	font-family: helvetica, arial;
+	font-size: 11px;
+}
+
+.copyright {
+	float: left;
+	margin-top:14px;
+}
+.footerlinksbox {
+	float: right;
+	margin-top:14px;
+}
+
+.footerlinks {
+
 }
