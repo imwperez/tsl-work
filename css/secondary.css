@@ -162,13 +162,15 @@ h1 {
 }
 
 h2 {
-	font-family: helvetica, arial;
-	font-size: 33px;
-	font-weight: bold;
+	font-family: 'open sans condensed', helvetica, arial;
+	font-size: 38px;
+	font-weight: 700, bold;
 	font-style: none;
-	line-height: 33px;
+	line-height: 35px;
 	width: 207px;
 	margin-bottom: 24px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
 }
 
 h6 {
@@ -176,7 +178,7 @@ h6 {
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: 12px;
-	margin-bottom: 9px;
+	margin-bottom: 8px;
 	color: red;
 	border-top: 0px solid #000000;
 	padding-top: 1px;
@@ -226,11 +228,19 @@ p {
 	float: left;
 }
 
+.entry {
+	margin-bottom: 50px;
+}
+
 .imagecolumn {
 	width: 436px;
 	height: 280px;
 	float: left;
 	background-color: none;
+}
+
+img {
+	margin-bottom: 2px;
 }
 
 .rightcolumn {
@@ -310,7 +320,7 @@ footer {
 	height: 2px;
 	width: auto;
 	background-color: #000000;
-	margin-top: 150px;
+	margin-top: 50px;
 	margin-bottom: -100px;
 }
 
@@ -349,4 +359,133 @@ a.footnavlinks:hover {
 
 .footerlinks {
 
+}
+
+#post-divider-rule {
+	width: 24px;
+	height: 1px;
+	background-color: #000000;
+	margin-bottom: 50px;
+}
+
+/* EXPERIMENTS */
+
+body {
+	position: absolute;
+}
+
+#topbar-white {
+	background-color: #ffffff;
+	height: 14px;
+	width: 100%;
+	margin-bottom: 45px;
+}
+
+.topnavlinkswhite {
+	font-family: georgia, times;
+	font-style: italic;
+	font-size: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a.topnavlinkswhite:link {
+	color: #ffffff;
+}
+
+a.topnavlinkswhite:visited {
+	color: #ffffff;
+}
+
+a.topnavlinkswhite:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.whiteslash {
+	font-family: georgia, times;
+	font-style: italic;
+	font-size: 16px;
+	font-color: #ffffff;
+}
+
+#slantpwhite, h1.logowhite {
+	font-family: georgia, times;
+	font-size: 55px;
+	color: #ffffff;
+	margin-top: -30px;
+}
+
+span#dotswhite {
+	font-family: georgia, times;
+	font-size: 63px;
+	color: #ffffff;
+}
+
+.einsteinquote {
+	margin-left: 185px;
+}
+
+.eq-line1 {
+	font-family: bitter, serif;
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-top: 5px;
+	padding-left:5px;
+	margin-bottom: -2px;
+	color: red;
+	/*border-top: 6px solid red;*/
+	width: 195px;
+}
+
+.eq-line2 {
+	font-family: 'raleway', 'open sans condensed', sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	font-style: normal;
+	color: red;
+}
+
+.eq-line3 {
+	font-family: 'vidaloka';
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 100;
+	text-transform: none;
+	letter-spacing: 1px;
+    color: red;
+}
+
+.line3ital {
+	font-size: 24px;
+	font-style: italic;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.eq-line4 {
+	font-family: 'open sans condensed', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-style: normal;
+	color: red;
+}
+
+.eq-line5 {
+	font-family: 'vidaloka';
+	font-size: 37px;
+	font-style: italic;
+	color: red;
+	margin-bottom: -15px;
+	letter-spacing: 1px;
+}
+
+.eq-line6 {
+	font-family: 'open sans condensed', sans-serif;
+	font-size: 102px;
+	font-weight: 700;
+	font-style: italic;
+	color: red;
+	margin-left: -15px;
 }
